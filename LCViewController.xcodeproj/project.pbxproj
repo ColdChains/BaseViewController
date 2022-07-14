@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1825ADE4287EACCA00D30426 /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825ADE3287EACCA00D30426 /* UIViewController+NavigationBar.m */; };
+		1825ADE7287EC05100D30426 /* LCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825ADE5287EC05100D30426 /* LCWebViewController.m */; };
+		185943D6283B9ACE00A1037E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185943D5283B9ACE00A1037E /* AppDelegate.m */; };
+		185943D9283B9ACE00A1037E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185943D8283B9ACE00A1037E /* SceneDelegate.m */; };
+		185943DC283B9ACE00A1037E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185943DB283B9ACE00A1037E /* ViewController.m */; };
+		185943DF283B9ACE00A1037E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185943DD283B9ACE00A1037E /* Main.storyboard */; };
+		185943E1283B9AD100A1037E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185943E0283B9AD100A1037E /* Assets.xcassets */; };
+		185943E4283B9AD100A1037E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185943E2283B9AD100A1037E /* LaunchScreen.storyboard */; };
+		185943E7283B9AD100A1037E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185943E6283B9AD100A1037E /* main.m */; };
+		18594401283B9AE400A1037E /* LCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185943F0283B9AE400A1037E /* LCViewController.m */; };
+		18594402283B9AE400A1037E /* LCProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 185943F1283B9AE400A1037E /* LCProgressBar.m */; };
+		18594403283B9AE400A1037E /* LCBaseConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 185943F7283B9AE400A1037E /* LCBaseConfig.m */; };
+		18594406283B9AE400A1037E /* LCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185943FD283B9AE400A1037E /* LCTabBarController.m */; };
+		18594407283B9AE400A1037E /* LCNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 185943FE283B9AE400A1037E /* LCNavigationBar.m */; };
+		18594408283B9AE400A1037E /* LCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185943FF283B9AE400A1037E /* LCNavigationController.m */; };
+		38FF484596085E3D2CB03D04 /* Pods_LCViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339ED044DB90062E4CE71878 /* Pods_LCViewController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CBC58CF0338FA3CFB35C23E /* Pods-LCViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCViewController.debug.xcconfig"; path = "Target Support Files/Pods-LCViewController/Pods-LCViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		1825ADE2287EACCA00D30426 /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		1825ADE3287EACCA00D30426 /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		1825ADE5287EC05100D30426 /* LCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCWebViewController.m; sourceTree = "<group>"; };
+		1825ADE6287EC05100D30426 /* LCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCWebViewController.h; sourceTree = "<group>"; };
+		185943D1283B9ACE00A1037E /* LCViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185943D4283B9ACE00A1037E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185943D5283B9ACE00A1037E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185943D7283B9ACE00A1037E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		185943D8283B9ACE00A1037E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		185943DA283B9ACE00A1037E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		185943DB283B9ACE00A1037E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		185943DE283B9ACE00A1037E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185943E0283B9AD100A1037E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185943E3283B9AD100A1037E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185943E5283B9AD100A1037E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185943E6283B9AD100A1037E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185943EE283B9AE400A1037E /* LCBaseConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBaseConfig.h; sourceTree = "<group>"; };
+		185943EF283B9AE400A1037E /* LCBaseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBaseHeader.h; sourceTree = "<group>"; };
+		185943F0283B9AE400A1037E /* LCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCViewController.m; sourceTree = "<group>"; };
+		185943F1283B9AE400A1037E /* LCProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCProgressBar.m; sourceTree = "<group>"; };
+		185943F2283B9AE400A1037E /* LCBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBase.h; sourceTree = "<group>"; };
+		185943F3283B9AE400A1037E /* LCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNavigationController.h; sourceTree = "<group>"; };
+		185943F4283B9AE400A1037E /* LCNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNavigationBar.h; sourceTree = "<group>"; };
+		185943F5283B9AE400A1037E /* LCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTabBarController.h; sourceTree = "<group>"; };
+		185943F7283B9AE400A1037E /* LCBaseConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBaseConfig.m; sourceTree = "<group>"; };
+		185943F8283B9AE400A1037E /* LCProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCProgressBar.h; sourceTree = "<group>"; };
+		185943FC283B9AE400A1037E /* LCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCViewController.h; sourceTree = "<group>"; };
+		185943FD283B9AE400A1037E /* LCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTabBarController.m; sourceTree = "<group>"; };
+		185943FE283B9AE400A1037E /* LCNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNavigationBar.m; sourceTree = "<group>"; };
+		185943FF283B9AE400A1037E /* LCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNavigationController.m; sourceTree = "<group>"; };
+		1A63E5E4128AD48DD7BFEE5B /* Pods-QLViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLViewController.debug.xcconfig"; path = "Target Support Files/Pods-QLViewController/Pods-QLViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		339ED044DB90062E4CE71878 /* Pods_LCViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C45A63694C35346924572D6 /* Pods-LCViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCViewController.release.xcconfig"; path = "Target Support Files/Pods-LCViewController/Pods-LCViewController.release.xcconfig"; sourceTree = "<group>"; };
+		F77256FAF2CD5C7D6984C8D2 /* Pods-QLViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLViewController.release.xcconfig"; path = "Target Support Files/Pods-QLViewController/Pods-QLViewController.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185943CE283B9ACE00A1037E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FF484596085E3D2CB03D04 /* Pods_LCViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1825ADE0287EAC2100D30426 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185943F4283B9AE400A1037E /* LCNavigationBar.h */,
+				185943FE283B9AE400A1037E /* LCNavigationBar.m */,
+				185943F8283B9AE400A1037E /* LCProgressBar.h */,
+				185943F1283B9AE400A1037E /* LCProgressBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1825ADE1287EAC4000D30426 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				185943EF283B9AE400A1037E /* LCBaseHeader.h */,
+				185943EE283B9AE400A1037E /* LCBaseConfig.h */,
+				185943F7283B9AE400A1037E /* LCBaseConfig.m */,
+				1825ADE2287EACCA00D30426 /* UIViewController+NavigationBar.h */,
+				1825ADE3287EACCA00D30426 /* UIViewController+NavigationBar.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		185943C8283B9ACE00A1037E = {
+			isa = PBXGroup;
+			children = (
+				185943D3283B9ACE00A1037E /* LCViewController */,
+				185943D2283B9ACE00A1037E /* Products */,
+				5FFA49243CC44D9204AEA792 /* Pods */,
+				9E27EBABD6CC11CB7D8DB8C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185943D2283B9ACE00A1037E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185943D1283B9ACE00A1037E /* LCViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185943D3283B9ACE00A1037E /* LCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				185943D4283B9ACE00A1037E /* AppDelegate.h */,
+				185943D5283B9ACE00A1037E /* AppDelegate.m */,
+				185943D7283B9ACE00A1037E /* SceneDelegate.h */,
+				185943D8283B9ACE00A1037E /* SceneDelegate.m */,
+				185943DA283B9ACE00A1037E /* ViewController.h */,
+				185943DB283B9ACE00A1037E /* ViewController.m */,
+				185943ED283B9AE400A1037E /* LCViewController */,
+				185943DD283B9ACE00A1037E /* Main.storyboard */,
+				185943E0283B9AD100A1037E /* Assets.xcassets */,
+				185943E2283B9AD100A1037E /* LaunchScreen.storyboard */,
+				185943E5283B9AD100A1037E /* Info.plist */,
+				185943E6283B9AD100A1037E /* main.m */,
+			);
+			path = LCViewController;
+			sourceTree = "<group>";
+		};
+		185943ED283B9AE400A1037E /* LCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1825ADE1287EAC4000D30426 /* Support */,
+				1825ADE0287EAC2100D30426 /* View */,
+				185943F2283B9AE400A1037E /* LCBase.h */,
+				185943FC283B9AE400A1037E /* LCViewController.h */,
+				185943F0283B9AE400A1037E /* LCViewController.m */,
+				1825ADE6287EC05100D30426 /* LCWebViewController.h */,
+				1825ADE5287EC05100D30426 /* LCWebViewController.m */,
+				185943F3283B9AE400A1037E /* LCNavigationController.h */,
+				185943FF283B9AE400A1037E /* LCNavigationController.m */,
+				185943F5283B9AE400A1037E /* LCTabBarController.h */,
+				185943FD283B9AE400A1037E /* LCTabBarController.m */,
+			);
+			path = LCViewController;
+			sourceTree = "<group>";
+		};
+		5FFA49243CC44D9204AEA792 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A63E5E4128AD48DD7BFEE5B /* Pods-QLViewController.debug.xcconfig */,
+				F77256FAF2CD5C7D6984C8D2 /* Pods-QLViewController.release.xcconfig */,
+				0CBC58CF0338FA3CFB35C23E /* Pods-LCViewController.debug.xcconfig */,
+				7C45A63694C35346924572D6 /* Pods-LCViewController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E27EBABD6CC11CB7D8DB8C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				339ED044DB90062E4CE71878 /* Pods_LCViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185943D0283B9ACE00A1037E /* LCViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185943EA283B9AD100A1037E /* Build configuration list for PBXNativeTarget "LCViewController" */;
+			buildPhases = (
+				0720AE331C961C5A1AB3EEA0 /* [CP] Check Pods Manifest.lock */,
+				185943CD283B9ACE00A1037E /* Sources */,
+				185943CE283B9ACE00A1037E /* Frameworks */,
+				185943CF283B9ACE00A1037E /* Resources */,
+				F5FF408830E2FE72CE80409B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCViewController;
+			productName = QLViewController;
+			productReference = 185943D1283B9ACE00A1037E /* LCViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185943C9283B9ACE00A1037E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					185943D0283B9ACE00A1037E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 185943CC283B9ACE00A1037E /* Build configuration list for PBXProject "LCViewController" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185943C8283B9ACE00A1037E;
+			productRefGroup = 185943D2283B9ACE00A1037E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185943D0283B9ACE00A1037E /* LCViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185943CF283B9ACE00A1037E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185943E4283B9AD100A1037E /* LaunchScreen.storyboard in Resources */,
+				185943E1283B9AD100A1037E /* Assets.xcassets in Resources */,
+				185943DF283B9ACE00A1037E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0720AE331C961C5A1AB3EEA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5FF408830E2FE72CE80409B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCViewController/Pods-LCViewController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCViewController/Pods-LCViewController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LCViewController/Pods-LCViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185943CD283B9ACE00A1037E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18594407283B9AE400A1037E /* LCNavigationBar.m in Sources */,
+				18594402283B9AE400A1037E /* LCProgressBar.m in Sources */,
+				18594403283B9AE400A1037E /* LCBaseConfig.m in Sources */,
+				185943DC283B9ACE00A1037E /* ViewController.m in Sources */,
+				185943D6283B9ACE00A1037E /* AppDelegate.m in Sources */,
+				18594406283B9AE400A1037E /* LCTabBarController.m in Sources */,
+				1825ADE7287EC05100D30426 /* LCWebViewController.m in Sources */,
+				18594401283B9AE400A1037E /* LCViewController.m in Sources */,
+				1825ADE4287EACCA00D30426 /* UIViewController+NavigationBar.m in Sources */,
+				185943E7283B9AD100A1037E /* main.m in Sources */,
+				18594408283B9AE400A1037E /* LCNavigationController.m in Sources */,
+				185943D9283B9ACE00A1037E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		185943DD283B9ACE00A1037E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185943DE283B9ACE00A1037E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185943E2283B9AD100A1037E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185943E3283B9AD100A1037E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185943E8283B9AD100A1037E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185943E9283B9AD100A1037E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185943EB283B9AD100A1037E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CBC58CF0338FA3CFB35C23E /* Pods-LCViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LCViewController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		185943EC283B9AD100A1037E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C45A63694C35346924572D6 /* Pods-LCViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LCViewController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185943CC283B9ACE00A1037E /* Build configuration list for PBXProject "LCViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185943E8283B9AD100A1037E /* Debug */,
+				185943E9283B9AD100A1037E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185943EA283B9AD100A1037E /* Build configuration list for PBXNativeTarget "LCViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185943EB283B9AD100A1037E /* Debug */,
+				185943EC283B9AD100A1037E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185943C9283B9ACE00A1037E /* Project object */;
+}
