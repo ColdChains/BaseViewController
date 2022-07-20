@@ -1,0 +1,6 @@
+framework module Pods_LCViewControllerDemo {
+  umbrella header "Pods-LCViewControllerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

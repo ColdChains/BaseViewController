@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B3FCD9020870B0FE8A3299506B452EE7"
-               BuildableName = "Pods_LCViewController.framework"
-               BlueprintName = "Pods-LCViewController"
+               BlueprintIdentifier = "7544D2C6E9D5A7F8AC046CF6AC46B815"
+               BuildableName = "Pods_LCViewControllerDemo.framework"
+               BlueprintName = "Pods-LCViewControllerDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

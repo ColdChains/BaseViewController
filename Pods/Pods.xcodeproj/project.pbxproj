@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1380AEBC8E9B26DD20D914E3310806CB /* Pods-LCViewControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FC3E2D6DF620E1D8808A85BE27C15F /* Pods-LCViewControllerDemo-dummy.m */; };
 		19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
 		1A1E14ECD62B9D6EF32F4BAA2F58E61A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,15 +34,24 @@
 		BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
-		CC67CF36E59D041CA084AFC32D5754CD /* Pods-LCViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF7BF1C63B58ED050F39E8EA57FFC16 /* Pods-LCViewController-dummy.m */; };
+		CC67CF36E59D041CA084AFC32D5754CD /* Pods-LCViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F142EA86EF06C17F5EF832D03CB10C13 /* Pods-LCViewController-dummy.m */; };
 		CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
 		CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
-		FC7B6DDBE7C5043E15B0B72B737F7503 /* Pods-LCViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C5FDA11A3C980399C1FF0407BC181E /* Pods-LCViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDE53AE629F084BE6E8D5BA0BCEE6233 /* Pods-LCViewControllerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4332198154328FFE5D4BB9E7CC200BB /* Pods-LCViewControllerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7B6DDBE7C5043E15B0B72B737F7503 /* Pods-LCViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DD493419F3A691F708F414A53297AB /* Pods-LCViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE2BFE6A609FBFCC257F56FD10E7E34F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0E5683902C41D463C2EF8EBD6B759A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
 		4D73F4FEC49248BF5A450A562C9D0D30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -55,48 +65,57 @@
 		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		1239199EF6114FED7795A843623FCA14 /* Pods-LCViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCViewController.release.xcconfig"; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		29C5FDA11A3C980399C1FF0407BC181E /* Pods-LCViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCViewController-umbrella.h"; sourceTree = "<group>"; };
+		28E74F192E238656156817F0215AC2F8 /* Pods-LCViewControllerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
 		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		3D4E554C76706B541AD85B351152F6F8 /* Pods-LCViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LCViewController"; path = Pods_LCViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DEAAD3B0A226A74A20A53C08E68DC05 /* Pods-LCViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		44D7F2B648DD189D3F3A92084A9D97F2 /* Pods-LCViewControllerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCViewControllerDemo-frameworks.sh"; sourceTree = "<group>"; };
 		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		4A20100F19CA25FB91E64945AD783C84 /* Pods-LCViewController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCViewController-frameworks.sh"; sourceTree = "<group>"; };
 		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		4DACF99C2DFBD137DBD3B2D2115DFBF2 /* Pods-LCViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCViewController-acknowledgements.plist"; sourceTree = "<group>"; };
+		5114FA675161352C1906CE6AF0D748C8 /* Pods-LCViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCViewController-Info.plist"; sourceTree = "<group>"; };
 		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		81BDEB877F11682C45EE564CA5159F9C /* Pods-LCViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCViewController-Info.plist"; sourceTree = "<group>"; };
+		77282AA72A03BBE22AE4AD39C95D293C /* Pods-LCViewControllerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCViewControllerDemo.modulemap"; sourceTree = "<group>"; };
+		824564FEE3E227389E7279A617D98498 /* Pods-LCViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		83CA21F7EC437C331118247938BBE64E /* Pods-LCViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCViewController.release.xcconfig"; sourceTree = "<group>"; };
+		843D011C7718E5E1093371B8D02D1091 /* Pods-LCViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		8DF7BF1C63B58ED050F39E8EA57FFC16 /* Pods-LCViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCViewController-dummy.m"; sourceTree = "<group>"; };
-		8F0E8B582447632758EF4501F2C1DBA5 /* Pods-LCViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCViewController.modulemap"; sourceTree = "<group>"; };
 		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3361BC7653C67C9A81C44631E08237B /* Pods-LCViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCViewController-acknowledgements.plist"; sourceTree = "<group>"; };
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		D0EF2E562F478925ED20CBDF7A0F8D69 /* Pods-LCViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4332198154328FFE5D4BB9E7CC200BB /* Pods-LCViewControllerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCViewControllerDemo-umbrella.h"; sourceTree = "<group>"; };
+		C5759CE7EED3F13E40A11913418AA366 /* Pods-LCViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C5FAA854D0A6F455EC79BDD6591F0B9A /* Pods-LCViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2FC3E2D6DF620E1D8808A85BE27C15F /* Pods-LCViewControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCViewControllerDemo-dummy.m"; sourceTree = "<group>"; };
+		D7DD493419F3A691F708F414A53297AB /* Pods-LCViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCViewController-umbrella.h"; sourceTree = "<group>"; };
+		DDD0EB9744F8E4F591E21D683BA44433 /* Pods-LCViewControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCViewControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E174A20EE351255BB3D66CA5A6BF7095 /* Pods-LCViewControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCViewControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E808645995DD9E49D0BED1F5CB4E329C /* Pods-LCViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCViewController.modulemap"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		EFFD9491123EAFEC8145ADD8BA333BBF /* Pods-LCViewControllerDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LCViewControllerDemo"; path = Pods_LCViewControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F142EA86EF06C17F5EF832D03CB10C13 /* Pods-LCViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCViewController-dummy.m"; sourceTree = "<group>"; };
 		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +125,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A1E14ECD62B9D6EF32F4BAA2F58E61A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E11B21475D6460D7C040D55C99F85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2BFE6A609FBFCC257F56FD10E7E34F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,13 +190,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		17679759C8B384F7F5B9B6EFA626D739 /* Products */ = {
+		48FBAF6497973FB09F3D22D3EC89B2A4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1FFED36A657123030ABB700256D73F15 /* Masonry */,
-				3D4E554C76706B541AD85B351152F6F8 /* Pods-LCViewController */,
+				C91E5B5552F3D0B179ED839370571C7C /* Pods-LCViewController */,
+				8D3B51B56C6A678E7AF4940884D6010A /* Pods-LCViewControllerDemo */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -189,6 +216,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8D3B51B56C6A678E7AF4940884D6010A /* Pods-LCViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				77282AA72A03BBE22AE4AD39C95D293C /* Pods-LCViewControllerDemo.modulemap */,
+				DDD0EB9744F8E4F591E21D683BA44433 /* Pods-LCViewControllerDemo-acknowledgements.markdown */,
+				E174A20EE351255BB3D66CA5A6BF7095 /* Pods-LCViewControllerDemo-acknowledgements.plist */,
+				D2FC3E2D6DF620E1D8808A85BE27C15F /* Pods-LCViewControllerDemo-dummy.m */,
+				44D7F2B648DD189D3F3A92084A9D97F2 /* Pods-LCViewControllerDemo-frameworks.sh */,
+				28E74F192E238656156817F0215AC2F8 /* Pods-LCViewControllerDemo-Info.plist */,
+				C4332198154328FFE5D4BB9E7CC200BB /* Pods-LCViewControllerDemo-umbrella.h */,
+				C5759CE7EED3F13E40A11913418AA366 /* Pods-LCViewControllerDemo.debug.xcconfig */,
+				843D011C7718E5E1093371B8D02D1091 /* Pods-LCViewControllerDemo.release.xcconfig */,
+			);
+			name = "Pods-LCViewControllerDemo";
+			path = "Target Support Files/Pods-LCViewControllerDemo";
+			sourceTree = "<group>";
+		};
+		BF5AB97541452E08707FB86BD31E55E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				3D4E554C76706B541AD85B351152F6F8 /* Pods-LCViewController */,
+				EFFD9491123EAFEC8145ADD8BA333BBF /* Pods-LCViewControllerDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,45 +258,44 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
+		C91E5B5552F3D0B179ED839370571C7C /* Pods-LCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E808645995DD9E49D0BED1F5CB4E329C /* Pods-LCViewController.modulemap */,
+				C5FAA854D0A6F455EC79BDD6591F0B9A /* Pods-LCViewController-acknowledgements.markdown */,
+				A3361BC7653C67C9A81C44631E08237B /* Pods-LCViewController-acknowledgements.plist */,
+				F142EA86EF06C17F5EF832D03CB10C13 /* Pods-LCViewController-dummy.m */,
+				5114FA675161352C1906CE6AF0D748C8 /* Pods-LCViewController-Info.plist */,
+				D7DD493419F3A691F708F414A53297AB /* Pods-LCViewController-umbrella.h */,
+				824564FEE3E227389E7279A617D98498 /* Pods-LCViewController.debug.xcconfig */,
+				1239199EF6114FED7795A843623FCA14 /* Pods-LCViewController.release.xcconfig */,
+			);
+			name = "Pods-LCViewController";
+			path = "Target Support Files/Pods-LCViewController";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
-				17679759C8B384F7F5B9B6EFA626D739 /* Products */,
-				FC180B0C109A7505239947EA97FD3EE1 /* Targets Support Files */,
+				BF5AB97541452E08707FB86BD31E55E6 /* Products */,
+				48FBAF6497973FB09F3D22D3EC89B2A4 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		F4E47F745BEE3CE3C1B166E9EEFB5341 /* Pods-LCViewController */ = {
-			isa = PBXGroup;
-			children = (
-				8F0E8B582447632758EF4501F2C1DBA5 /* Pods-LCViewController.modulemap */,
-				D0EF2E562F478925ED20CBDF7A0F8D69 /* Pods-LCViewController-acknowledgements.markdown */,
-				4DACF99C2DFBD137DBD3B2D2115DFBF2 /* Pods-LCViewController-acknowledgements.plist */,
-				8DF7BF1C63B58ED050F39E8EA57FFC16 /* Pods-LCViewController-dummy.m */,
-				4A20100F19CA25FB91E64945AD783C84 /* Pods-LCViewController-frameworks.sh */,
-				81BDEB877F11682C45EE564CA5159F9C /* Pods-LCViewController-Info.plist */,
-				29C5FDA11A3C980399C1FF0407BC181E /* Pods-LCViewController-umbrella.h */,
-				3DEAAD3B0A226A74A20A53C08E68DC05 /* Pods-LCViewController.debug.xcconfig */,
-				83CA21F7EC437C331118247938BBE64E /* Pods-LCViewController.release.xcconfig */,
-			);
-			name = "Pods-LCViewController";
-			path = "Target Support Files/Pods-LCViewController";
-			sourceTree = "<group>";
-		};
-		FC180B0C109A7505239947EA97FD3EE1 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F4E47F745BEE3CE3C1B166E9EEFB5341 /* Pods-LCViewController */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		42552462C3CFEC2C34BA8F3DF279DEDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE53AE629F084BE6E8D5BA0BCEE6233 /* Pods-LCViewControllerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B76968C5BF971026D47CD62C775F939 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,6 +348,25 @@
 			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
 			productType = "com.apple.product-type.framework";
 		};
+		7544D2C6E9D5A7F8AC046CF6AC46B815 /* Pods-LCViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B48C29333D85D02AAC727116F9D0637 /* Build configuration list for PBXNativeTarget "Pods-LCViewControllerDemo" */;
+			buildPhases = (
+				42552462C3CFEC2C34BA8F3DF279DEDD /* Headers */,
+				4CE77FFFB612462495EA025CD5C6107E /* Sources */,
+				92E11B21475D6460D7C040D55C99F85F /* Frameworks */,
+				C9A54BFF0B017B051366798417CED926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA69511C9B78134F9E08133803883342 /* PBXTargetDependency */,
+			);
+			name = "Pods-LCViewControllerDemo";
+			productName = Pods_LCViewControllerDemo;
+			productReference = EFFD9491123EAFEC8145ADD8BA333BBF /* Pods-LCViewControllerDemo */;
+			productType = "com.apple.product-type.framework";
+		};
 		B3FCD9020870B0FE8A3299506B452EE7 /* Pods-LCViewController */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 765D42D7236EFDC2F97607A7CADE3187 /* Build configuration list for PBXNativeTarget "Pods-LCViewController" */;
@@ -332,12 +404,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 17679759C8B384F7F5B9B6EFA626D739 /* Products */;
+			productRefGroup = BF5AB97541452E08707FB86BD31E55E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				B3FCD9020870B0FE8A3299506B452EE7 /* Pods-LCViewController */,
+				7544D2C6E9D5A7F8AC046CF6AC46B815 /* Pods-LCViewControllerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -351,6 +424,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C41D4FE09C88D6301CF5439DB170498D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A54BFF0B017B051366798417CED926 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,6 +466,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CE77FFFB612462495EA025CD5C6107E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1380AEBC8E9B26DD20D914E3310806CB /* Pods-LCViewControllerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -394,6 +482,12 @@
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
 			targetProxy = 4D73F4FEC49248BF5A450A562C9D0D30 /* PBXContainerItemProxy */;
+		};
+		DA69511C9B78134F9E08133803883342 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 0E5683902C41D463C2EF8EBD6B759A61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -531,9 +625,82 @@
 			};
 			name = Release;
 		};
+		A582072C7EC51CF8C1BD6E8FCAD1191E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5759CE7EED3F13E40A11913418AA366 /* Pods-LCViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCViewControllerDemo/Pods-LCViewControllerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCViewControllerDemo/Pods-LCViewControllerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE9FEEDDE5C933029ECE2B3A85F404CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843D011C7718E5E1093371B8D02D1091 /* Pods-LCViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCViewControllerDemo/Pods-LCViewControllerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCViewControllerDemo/Pods-LCViewControllerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BEC1BCE40C8B4348720F9FC0FDB60E90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83CA21F7EC437C331118247938BBE64E /* Pods-LCViewController.release.xcconfig */;
+			baseConfigurationReference = 1239199EF6114FED7795A843623FCA14 /* Pods-LCViewController.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -632,7 +799,7 @@
 		};
 		DA00336BB447F2B58485AF0FFFB7BEF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DEAAD3B0A226A74A20A53C08E68DC05 /* Pods-LCViewController.debug.xcconfig */;
+			baseConfigurationReference = 824564FEE3E227389E7279A617D98498 /* Pods-LCViewController.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -692,6 +859,15 @@
 			buildConfigurations = (
 				DA00336BB447F2B58485AF0FFFB7BEF1 /* Debug */,
 				BEC1BCE40C8B4348720F9FC0FDB60E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B48C29333D85D02AAC727116F9D0637 /* Build configuration list for PBXNativeTarget "Pods-LCViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A582072C7EC51CF8C1BD6E8FCAD1191E /* Debug */,
+				BE9FEEDDE5C933029ECE2B3A85F404CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
