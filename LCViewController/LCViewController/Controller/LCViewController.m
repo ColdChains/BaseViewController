@@ -74,7 +74,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.navigationController.navigationBar.hidden = !self.disablePopGestureRecognizer;
+    self.navigationController.navigationBar.hidden = !self.showSystemNavagationBar;
     if (LCBaseConfig.shared.logEnabled) {
         NSLog(@"[%p] [%@] [%@]", self, NSStringFromClass([self class]), NSStringFromSelector(_cmd));
     }
